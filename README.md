@@ -4,7 +4,9 @@
 
 La API de Exchange Rate proporciona tasas de cambio actualizadas entre diferentes monedas. Esta documentación detalla la arquitectura subyacente de la API, incluidos los componentes principales, las tecnologías utilizadas y los flujos de datos.
 
-Arquitectura General La arquitectura de la API de Exchange Rate sigue un modelo de arquitectura basado en microservicios para garantizar la escalabilidad y la modularidad del sistema. Consiste en los siguientes componentes principales:
+## Arquitectura General 
+
+La arquitectura de la API de Exchange Rate sigue un modelo de arquitectura basado en microservicios para garantizar la escalabilidad y la modularidad del sistema. Consiste en los siguientes componentes principales:
 
 1.  **API Gateway:** El API Gateway actúa como punto de entrada único para la API y maneja la autenticación, la autorización, el enrutamiento de solicitudes y la traducción de protocolos.
     
